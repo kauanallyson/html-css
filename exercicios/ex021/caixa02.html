@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grouping tags</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: darkgray;
+                margin: 0px;
+            }
+            header {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+            }
+            nav {
+                background-color: lightslategray;
+                padding: 3px;
+                box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.285);
+            }
+            nav > a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                margin-right: 30px;
+            }
+            nav > a:hover {
+                text-decoration: underline;
+            }
+            main {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 5px 10px;
+                box-shadow: 7px 7px 16px 1px rgba(0, 0, 0, 0.225);
+            }
+            article {
+                background-color: lightgray;
+            }
+            article > aside {
+                background-color: rgb(124, 124, 124);
+            }
+            footer {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 4px;
+                margin: 0px;
+            }
+            footer > p {
+                margin: 0px;
+            }
+            div#bola {
+                height: 100px;
+                width: 100px;
+                background-color: aquamarine;
+                margin: 10px auto;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+        </header>
+        <main>
+            <section id="assuntos">
+                <article>
+                    <p>Grupos, Adoração e Missas</p>
+                </article>
+            </section>
+            <section id="noticias"></section>
+            <article>
+                <h2>Notícias da Comunidade RP</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam odit velit facere non earum praesentium nisi, et sequi
+                    quia quis ea perferendis, iure molestiae fugiat libero rem,
+                    unde porro error?
+                </p>
+                <aside>Artigo escrito por Kauan Allyson</aside>
+            </article>
+        </main>
+        <footer>
+            <p>Desenvolvido por Kauan Allyson</p>
+        </footer>
+        <div id="bola"><p>eita</p></div>
+    </body>
+</html>
