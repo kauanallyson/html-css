@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercício de tabelas</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            table {
+                border-collapse: collapse;
+                width: 500px;
+            }
+            caption {
+                font-size: 1.2em;
+                font-weight: bolder;
+                padding: 5px;
+            }
+            th,
+            td {
+                border: 1px solid gray;
+                padding: 10px;
+            }
+            col.cnome {
+                background-color: chartreuse;
+            }
+            col.cgrupo {
+                background-color: rebeccapurple;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Exercício de tabelas</h1>
+        <table>
+            <colgroup>
+                <col class="cnome" />
+                <col class="cgrupo" span="2" />
+                <col class="cprof" />
+            </colgroup>
+            <caption>
+                Cadastro
+            </caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Carlos Eduardo</td>
+                <td>M</td>
+                <td>32</td>
+                <td>Engenheiro Civil</td>
+            </tr>
+            <tr>
+                <td>Fernanda Lopes</td>
+                <td>F</td>
+                <td>29</td>
+                <td>Designer Gráfico</td>
+            </tr>
+            <tr>
+                <td>João Batista</td>
+                <td>M</td>
+                <td>45</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Lucas Pereira</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Beatriz Silva</td>
+                <td>F</td>
+                <td>38</td>
+                <td>Médica</td>
+            </tr>
+        </table>
+    </body>
+</html>
